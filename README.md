@@ -8,17 +8,17 @@ The wanted outcome is that when all function in the array are executed, the numb
 
 Input data:
 
-{
-    function buildFun(n){
+```
+function buildFun(n){
 
-        var res = []
+    var res = []
 
-        for (var i = 0; i< n; i++){
-            res.push(function(){
-                console.log(i)
-            })
-        }
-        return res
-
+    for (var i = 0; i< n; i++){
+        res.push(function(){
+            console.log(i)
+        })
     }
+    return res
+
 }
+```
